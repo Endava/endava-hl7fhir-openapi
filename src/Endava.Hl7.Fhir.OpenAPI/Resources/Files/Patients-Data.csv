@@ -1,0 +1,4 @@
+Nr,Prefix,Identifier,FirstName,LastName,BirthDate,BirthPlace,CitizenshipCode,Gender,AddressStreetName,AddressStreetNo,AddressAppartmentNo,AddressPostalCode,AddressCity,AddressCountry,AddressType
+1,,PAT0001,Alan,Ford,1990-05-31,Dallas,US,Male,Eastern Parkway,133,6,11201,Brooklyn NY,USA,PHYSICAL
+2,Mr,PAT0002,Will,Smith,1970-07-12,Denver,US,Male,Lincoln Avenue,178,9,80014,Denver,USA,PHYSICAL
+3,Mrs,PAT0003,Susan,Smith,1975-07-12,Denver,US,Female,Lincoln Avenue,178,9,80014,Denver,USA,PHYSICAL

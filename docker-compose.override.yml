@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  endava.hl7.fhir.openapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - 10500:80

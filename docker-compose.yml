@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  endava.hl7.fhir.openapi:
+    container_name: Endava.HL7.FHIR.OpenAPI
+    image: ${DOCKER_REGISTRY-}endavahl7fhiropenapi
+    restart: on-failure
+    hostname: Endava.HL7.FHIR.OpenAPI
+    build:
+      context: .
+      dockerfile: src/Endava.Hl7.Fhir.OpenAPI/Dockerfile
+    volumes:
+      - "./csv-files:/Resources/Files"
