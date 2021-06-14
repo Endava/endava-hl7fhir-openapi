@@ -2,7 +2,7 @@
 
 
 # Endava HL7 FHIR OpenAPI Demo
-Batjaz Bravic, Senior Developer
+Matjaz Bravc, Senior Developer
 
 
 
